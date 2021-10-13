@@ -16,7 +16,7 @@ export const TodoList = () => {
                         <TodoItem
                             key={t.id}
                             completed={t.completed} id={t.id}
-                            text={t.text}
+                            title={t.title}
                            />
                     )
                 })
